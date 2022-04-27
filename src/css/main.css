@@ -149,11 +149,11 @@ h4 {
 }
 .cast ul {
   list-style: none;
+  columns: 2;
   color: white;
   min-height: 100px;
   font-size: large;
   text-align: center;
-  margin-right: 2.3rem;
 }
 .cast li {
   margin: 1rem;
@@ -208,8 +208,6 @@ section {
   transition: transform 0.3s;
   cursor: pointer;
 }
-.galleryImg:hover {
-}
 
 #popup {
   position: fixed;
@@ -233,4 +231,7 @@ section {
   text-align: center;
   font-family: "Cubano";
   color: white;
+}
+.highlight {
+  border-bottom: 5px solid white;
 }
