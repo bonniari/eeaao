@@ -5,3 +5,15 @@ video {
   width: 100%;
   height: auto;
 }
+.navbar {
+  background: darkred;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav_co
