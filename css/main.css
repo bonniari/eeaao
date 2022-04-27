@@ -1,7 +1,52 @@
 /* Decent Defaults */
-
+@font-face {
+  font-family: "Cubano";
+  src: url(./fonts/cubano-webfont.woff);
+  font-family: "Majesti";
+  src: url(./fonts/majesti-banner-book-webfont.woff);
+}
 img,
 video {
   width: 100%;
   height: auto;
+}
+.navbar {
+  background: darkred;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#nav_logo {
+  font-family: 'Majesti'
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  padding: .5rem;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav_item {
+  font-size: 1rem;
+  font-family: 'Cubano';
+
 }
