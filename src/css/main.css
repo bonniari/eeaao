@@ -6,6 +6,10 @@
   src: url(./fonts/majesti-banner-book-webfont.woff);
 }
 img,
+a {
+  text-decoration: none;
+  color: inherit;
+}
 video {
   width: 100%;
   height: auto;
@@ -65,6 +69,7 @@ h1 {
 }
 .banner {
   background-color: darkred;
+  border: none;
 }
 .banner h1 {
   color: white;
@@ -75,7 +80,34 @@ p {
   text-align: center;
   font-family: "Cubano";
 }
+.buttoncont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+}
 button {
+  margin: auto 1rem;
+  font-family: "Cubano";
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 0.5rem 0.5rem;
+  font-size: 1.2rem;
+}
+button:hover {
+  background-color: black;
+  transition: all 0.3s ease;
+}
+.posterscontainer {
   display: flex;
-  align-items: ;
+  justify-content: center;
+  align-items: center;
+}
+.poster {
+  margin: 20px 20px;
+  max-width: auto;
+  max-height: auto;
 }
