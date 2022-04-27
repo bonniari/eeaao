@@ -10,6 +10,11 @@ video {
   width: 100%;
   height: auto;
 }
+h1 {
+  font-family: "Majesti";
+  font-size: 3rem;
+  text-align: center;
+}
 .navbar {
   background: darkred;
   height: 75px;
@@ -57,4 +62,20 @@ video {
 .nav_links:hover {
   color: black;
   transition: all 0.3s ease;
+}
+.banner {
+  background-color: darkred;
+}
+.banner h1 {
+  color: white;
+}
+.banner h2,
+p {
+  color: white;
+  text-align: center;
+  font-family: "Cubano";
+}
+button {
+  display: flex;
+  align-items: ;
 }
