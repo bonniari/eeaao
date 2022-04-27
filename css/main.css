@@ -25,28 +25,40 @@ video {
   display: flex;
   justify-content: space-between;
   height: 75px;
-  width: 100%;
+  width: 50%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 auto;
 }
-#nav_logo {
-  font-family: 'Majesti'
-  font-size: 1rem;
-  color: white;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  padding: .5rem;
-}
 .nav_menu {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   list-style: none;
+  max-width: 100%;
 }
 .nav_item {
   font-size: 1rem;
-  font-family: 'Cubano';
-
+  font-family: "Cubano";
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.nav_links {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.nav_button {
+  font-family: "Majesti";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 80%;
 }
